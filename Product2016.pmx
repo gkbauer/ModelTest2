@@ -38,9 +38,18 @@
         <property_values/>
         <language_translations/>
       </variable>
-      <rules/>
+      <rules>
+        <rule name="NewRule" uuid="7b54ba79-c3a6-4fda-a674-2a958fb8c053" is_enabled="true" is_read_only="false">
+          <ruleexpr>true</ruleexpr>
+        </rule>
+      </rules>
       <relations/>
-      <functions/>
+      <functions>
+        <function name="NewFunction" type="Float" is_enabled="true" uuid="50c05313-b600-47b7-9116-11804ad092cf" is_read_only="false">
+          <function_args/>
+          <function_body>return 0.0;</function_body>
+        </function>
+      </functions>
     </product_model_structure>
     <variable_types/>
     <property_groups>
