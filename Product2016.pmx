@@ -30,10 +30,6 @@
         <property_values/>
         <language_translations/>
       </variable>
-      <variable name="NewVariable_2" is_private="false" is_enabled="true" type="Boolean" uuid="e47a850e-bc95-4f6f-a926-3e3181798f0f" is_read_only="false">
-        <property_values/>
-        <language_translations/>
-      </variable>
       <variable name="ThirdBooleanVar" is_private="false" is_enabled="true" type="Boolean" uuid="3f5a5bbb-fa90-4e3d-b7ed-c9579318c95d" is_read_only="false">
         <property_values/>
         <language_translations/>
@@ -44,6 +40,9 @@
       </variable>
       <rules>
         <rule name="NewRule" uuid="7b54ba79-c3a6-4fda-a674-2a958fb8c053" is_enabled="true" is_read_only="false">
+          <ruleexpr>true</ruleexpr>
+        </rule>
+        <rule name="NewRule_2" uuid="aad4736b-03c1-4de9-863b-324dd5ba7fbc" is_enabled="true" is_read_only="false">
           <ruleexpr>true</ruleexpr>
         </rule>
       </rules>
