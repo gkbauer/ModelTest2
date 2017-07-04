@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- DOCTYPE workspace SYSTEM "modeler.dtd" -->
-<workspace version="58">
+<workspace version="59">
   <product_model name="YeChangModel1" uuid="f127adac-8a6f-4939-81f7-7159700a2818">
     <compile_options>
       <property_values>
@@ -32,6 +32,9 @@
       </variable>
       <rules>
         <rule name="NewRule" uuid="fbb76f8c-3866-455f-bc12-999b76c28475" is_enabled="true" is_read_only="false">
+          <ruleexpr>true</ruleexpr>
+        </rule>
+        <rule name="NewRule_2" uuid="a57c4c77-ea87-43d1-8f34-fba24c18ad37" is_enabled="true" is_read_only="false">
           <ruleexpr>true</ruleexpr>
         </rule>
       </rules>
